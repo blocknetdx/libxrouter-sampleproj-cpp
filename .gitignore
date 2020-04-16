@@ -1,0 +1,71 @@
+*.tar.gz
+
+.deps
+.dirstamp
+.libs
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.pyc
+*.o
+*.o-*
+*.patch
+*.a
+*.pb.cc
+*.pb.h
+*.dat
+
+*.log
+*.trs
+*.dmg
+
+*.json.h
+*.raw.h
+
+#libtool object files
+*.lo
+*.la
+
+# Mac specific
+.DS_Store
+build
+
+#lcov
+*.gcno
+*.gcda
+/*.info
+test_bitcoin.coverage/
+total.coverage/
+coverage_percent.txt
+
+#build tests
+linux-coverage-build
+linux-build
+win32-build
+test/config.ini
+test/cache/*
+
+/doc/doxygen/
+
+# Output from running db4 installation
+db4/
+
+# clang-check
+*.plist
+
+# cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# clion
+.idea/
+cmake-build-*/
+
+# blocknet dir
+blocknet/
+# binary
+xrouter-dev
