@@ -40,6 +40,7 @@ set(LIBS ${LIBS}
         ${CMAKE_SOURCE_DIR}/blocknet/depends/x86_64-pc-linux-gnu/lib/libboost_chrono-mt.a
         ${CMAKE_SOURCE_DIR}/blocknet/depends/x86_64-pc-linux-gnu/lib/libboost_date_time-mt.a
         ${CMAKE_SOURCE_DIR}/blocknet/depends/x86_64-pc-linux-gnu/lib/libcrypto.a
+        ${CMAKE_SOURCE_DIR}/blocknet/depends/x86_64-pc-linux-gnu/lib/libevent_openssl.a
         ${CMAKE_SOURCE_DIR}/blocknet/depends/x86_64-pc-linux-gnu/lib/libevent.a
         ${CMAKE_SOURCE_DIR}/blocknet/depends/x86_64-pc-linux-gnu/lib/libevent_pthreads.a
         ${CMAKE_SOURCE_DIR}/blocknet/depends/x86_64-pc-linux-gnu/lib/libminiupnpc.a

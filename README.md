@@ -18,7 +18,7 @@ In order to get started with the XRouter C++ library you must build it first, in
 ### Step 1. Clone the main blocknet repository
 
 ```
-git clone --single-branch --branch libxrouter https://github.com/blocknetdx/blocknet.git
+git clone --single-branch --branch feature-xrouter-tls https://github.com/blocknetdx/blocknet.git
 ```
 
 ### Step 2. Build the blocknet repository dependencies
